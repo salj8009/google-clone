@@ -16,6 +16,7 @@ header nav .barra-nav-list {
     display: flex;
     list-style: none;
     justify-content: space-between;
+    align-items: center;
     margin-inline-end: 25px;
 }
 nav .barra-nav-list li a{
@@ -31,5 +32,15 @@ nav .barra-nav-list .menu-icon {
     height: 25px;
 }
 nav .barra-nav-list img {
-    border-radius: 50px;
+    border-radius: 50%;
+}
+main {
+    border: 1px solid red;
+    display: grid;
+    place-content: center;
+    margin-top: 150px;
+    height: auto;
+}
+main .main-logo {
+    margin: 10px auto;
 }
