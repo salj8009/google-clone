@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -60,12 +61,68 @@ main .search-container .img-lupa img {
 main .search-container input {
     height: 50px;
     width: 500px;
-    border: 1px solid;
+    border: 1px solid #DFE1E5;
     border-radius: 50px;
     display: block;
     padding-inline-start: 57px;
+    outline: none;
+}
+main .search-container input:hover{
+    box-shadow: 0px 0px 8px 1px #DFE1E5;
+   
 }
 main .search-container .img-micro {
     position: absolute;
     margin-inline-start: 447px;
+}
+main .buttons-text  {
+    text-align: center;
+    display: block;
+}
+
+main .buttons-text button {
+    margin: 11px 4px;
+    padding: 5px 16px;
+    color: #3c4043;
+    border: 1px solid #f8f9fa;
+    background: #f8f9fa;
+}
+main .buttons-text button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+main .buttons-text p {
+    color: #3c4043;
+    line-height: 28px;
+}
+footer {
+    display: block;
+    color: #70757a;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer div p {
+    padding-inline-start: 39px;
+}
+footer .footer-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-lists ul {
+    list-style: none;
+    display: flex;
+}
+footer .footer-lists a {
+    text-decoration: none;
+    color: #70757a;
+    margin-inline-end: 25px;
+}
+footer .footer-lists a:hover {
+    text-decoration: underline;
+
 }
